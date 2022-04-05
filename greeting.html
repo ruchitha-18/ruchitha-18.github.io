@@ -9,7 +9,7 @@ const greetings = ['Happy Birthday!',
 for (let greeting of greetings) {
   // Your conditional test needs to go inside the parentheses
   // in the line below, replacing what's currently there
-  if (greeting) {
+  if (greeting.includes('Christmas')) {
     const listItem = document.createElement('li');
     listItem.textContent = greeting;
     list.appendChild(listItem);
