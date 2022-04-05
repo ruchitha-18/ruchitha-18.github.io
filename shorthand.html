@@ -1,0 +1,19 @@
+/* In 4-value shorthands like padding and margin, the values are applied
+   in the order top, right, bottom, left (clockwise from the top). There are also other
+   shorthand types, for example 2-value shorthands, which set padding/margin
+   for top/bottom, then left/right */
+padding: 10px 15px 15px 5px;
+ is equal to this four lines of code :
+padding-top: 10px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 5px;
+
+
+background: red url(bg-graphic.png) 10px 10px repeat-x fixed;
+is equal to this lines of code:
+background-color: red;
+background-image: url(bg-graphic.png);
+background-position: 10px 10px;
+background-repeat: repeat-x;
+background-attachment: fixed;
